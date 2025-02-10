@@ -16,7 +16,7 @@ client.on('qr', (qr) => {
 client.on('ready', () => {
     console.log('Client is ready!');
     clearTimeout(TimeoutId);
-    client.sendMessage('79634001809@c.us', 'message1')
+    client.sendMessage('number@c.us', 'message1')
         .then(() => {
             console.log('sent successfully!')
         })
